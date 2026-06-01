@@ -10,9 +10,14 @@
   "devDependencies": {
     "@babel/preset-env": "^7.23.2",
     "babel-jest": "^29.7.0",
-    "jest": "^29.7.0"
+    "docx": "^9.7.1",
+    "jest": "^29.7.0",
+    "pdf-parse": "^1.1.1"
   },
   "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.test.js"
+    ],
     "transform": {
       "^.+\\.js$": "babel-jest"
     }
